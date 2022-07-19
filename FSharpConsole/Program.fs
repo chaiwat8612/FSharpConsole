@@ -20,9 +20,19 @@ let main argv =
     //printfn $"'num1' is {num1}"
 
     //operator
-    let num1 = 40
-    let num2 = 50
-    let result = num1 + num2
-    printfn $"'num1' is {result}"
+    //let num1 = 40
+    //let num2 = 50
+    //let result = num1 + num2
+    //printfn $"'num1' is {result}"
+
+    //if_else
+    let num1 =40
+
+    if num1 = 20 then
+        printfn $"num1 equal 40"
+    elif num1 = 50 then
+        printfn $"num1 equal 50"
+    else
+        printfn $"num1 equal 40"
 
     0 // return an integer exit code
